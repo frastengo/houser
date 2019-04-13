@@ -47,7 +47,7 @@ export default class Dashboard extends Component {
             return <House getHouses={this.getHouses} key={house.id} id={house.id} house={house} deleteHouse={this.deleteHouse} />
         })
         return (
-            <div>
+            <div className="dashboard">
                 <div className="dashboard-header">
                     <h1>Dashboard</h1>
                     <Link to='/wizard/step1'><button>Add New Property</button></Link>

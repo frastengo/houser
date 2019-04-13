@@ -60,7 +60,7 @@ export default class Step1 extends Component {
 
     render(){
         return (
-            <div>This is Step 1
+            <div className='form-container'>This is Step 1
                 <form>
                     <label>Property name</label>
                     <input

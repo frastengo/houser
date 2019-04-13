@@ -2,6 +2,10 @@ import React, {Component} from 'react'
 
 export default class Header extends Component {
     render(){
-        return <div>This is the Header</div>
+        return(
+             <header>
+                 <h1>Houser</h1>
+             </header>
+        )
     }
 }
